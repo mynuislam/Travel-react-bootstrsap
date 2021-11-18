@@ -1,0 +1,705 @@
+*{
+ margin:0;
+ padding:0 ;
+ box-sizing: border-box;
+}
+body{
+ font-family: 'PT Sans', sans-serif;
+}
+
+.navbar-nav .nav-link {
+ color: #fff !important;   
+
+}
+.modal-dialog{
+   padding:0px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+ padding-left: 2.5rem;
+}
+.NavbarBtn{
+ padding: 0.09rem 0.9rem;
+ background-color:#343A40;
+ color: #fff;
+ outline-color: white;
+ border-color:white;
+}
+.NavbarBtn:hover{
+ background-color:#ffffff;
+ color: rgb(0, 0, 0);
+ outline-color: white;
+ border-color:white;
+}
+body.modal-open {
+   overflow: scroll !important;
+   padding:0px 0px 0px 0px !important;
+ }
+ .modal-open {    
+   overflow-y: scroll !important; 
+   padding:0px 0px 0px 0px !important;
+
+}
+.myvideodiv{
+ width:100% !important;
+ overflow: hidden;
+}
+
+
+
+.myvideodiv img {
+ height: 600px !important;
+ width:100% !important;
+}
+.myvideo{
+ background-repeat: none;
+ background-size: cover !important;
+position: relative;
+overflow: hidden;
+}
+.myvideo1{
+ width: 100%;
+}
+.textop{
+ position:absolute;
+top: 35%;
+left: 26.3%;
+text-align: center;
+margin:0 auto;
+color: white;
+}
+.textop h1{
+ font-size: 4.5rem;
+}
+.textop p{
+ font-size: 1.9rem;
+}
+.textop Button{
+width: 10rem;
+height: 3rem;
+}
+.textopBtnCol1{
+text-align: right;
+}
+.textopBtnCol2{
+ text-align: left;
+
+ }
+ .cardImage{ width:100%; height: 358px; position: relative; transition: transform .2s; -webkit-transition: transform .2s; -moz-transition: transform .2s; -ms-transition: transform .2s; -o-transition: transform .2s;
+}
+.cardImage:hover{
+   transform: scale(0.997);
+   -webkit-transform: scale(0.997);
+   -moz-transform: scale(0.997);
+   -ms-transform: scale(0.997);
+   -o-transform: scale(0.997);
+   overflow:hiden;
+}
+.cardImage1:hover{
+   transform: scale(0.995);
+   -webkit-transform: scale(0.995);
+   -moz-transform: scale(0.995);
+   -ms-transform: scale(0.995);
+   -o-transform: scale(0.995);
+   overflow:hiden;
+}
+
+ .cardImage1{ width:100%; height:272px; transition: transform .2s; -webkit-transition: transform .2s; -moz-transition: transform .2s; -ms-transition: transform .2s; -o-transition: transform .2s;
+}
+
+
+   .Cardlevel{
+position: absolute;
+top: 64%;
+left: 3%;
+   }
+.Cardlevel1{
+      position: absolute;
+      top: 53.4%;
+      left: 3%;
+         }
+.footter{
+background-color: #343A40;
+padding-top: 50px;
+padding-bottom: 70px;
+color: white;
+
+         }
+
+.footter a{
+color: white;
+text-decoration: none;
+}
+      
+.Newsletter {
+width: 250px;
+margin: 0 auto !important;
+}
+.fotterSocialSec{
+   width:300px  ;
+   }
+.NewsletterUpText{
+font-size:2rem;
+line-height: 2rem;
+}
+.NewsletterUpText1{
+   line-height: 3.5rem;
+
+   font-size:1.5rem;
+ 
+}
+.LastFotterDiv{
+width: 1000px;
+margin: 0 auto;
+
+}
+.LastFotterDiv1{
+font-size: 20px;
+float: left;
+width:30%;
+}
+.LastFotterDiv1 a{
+   font-size: 30PX;
+   text-align: center;
+
+   }
+.LastFotterDiv2{
+   font-size: 14px;
+color: white;
+float: left;
+width:30%;
+
+
+}
+.LastFotterDiv2 a{
+ text-align:center;
+
+
+}
+.LastFotterDiv3{
+   font-size: 20px;
+   color: white;
+   float: left;
+   width: 30%;
+
+
+
+}
+.LastFotterDiv3 a{
+padding: 20px;
+text-align: center;
+
+}
+
+
+.BeforelstFotter{
+width: 1400px;
+margin: 0 auto;
+overflow: hidden;
+}
+.BeforelstFotter1{
+width: 340px;
+float: left;
+overflow: hidden;
+   }
+ .footterAoutSec{
+font-size: 24px;
+ }
+ .BeforelstFotter
+{
+   font-size: 16px;
+}
+.BeforelstFotter div:last-child{
+   width: 300px;
+}
+
+         
+@media (min-width: 480px) { 
+   .LastFotterDiv{
+      width:480px ;margin: 0 auto;
+   }
+
+      .LastFotterDiv1{
+      font-size: 20px;
+      float: left;
+      width: 160px;       }
+
+      .LastFotterDiv1 a{
+         font-size: 18PX;
+      
+         }
+      .LastFotterDiv2{
+         font-size: 14px;
+      color: white;
+      float: left;
+width: 160px;      
+      
+      }
+      .LastFotterDiv2 a{
+         font-size: 14px;
+      color: white;
+
+      }
+      .LastFotterDiv3{
+         font-size: 20px;
+         color: white;
+         float: left;
+width: 160px;       
+      
+      
+      }
+      .LastFotterDiv3 a{
+         font-size: 16px;
+
+      padding: 8px;
+      }
+      .footterAoutSec {
+         font-size: 18px;
+     }
+     .footter a {
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+  }
+   .BeforelstFotter{
+      width:480px;
+      margin: 0 auto;
+      overflow: hidden;
+      }
+      .BeforelstFotter1{
+         width: 120px;
+         float: left;
+         overflow: hidden;
+            }
+            .BeforelstFotter div:last-child{
+               width: 120px;
+            }
+            .NewsletterUpText {
+               font-size: 20px;
+               line-height: 1.5rem;
+           }
+           .NewsletterUpText1 {
+            line-height: 2.1rem;
+            font-size: 16px;
+        }
+        .textop h1 {
+         font-size: 36px;
+     }
+     .textop {
+      position: absolute;
+      top: 35%;
+      left: 10%;
+      text-align: center;
+      margin: 0 auto;
+      color: white;
+  }
+  .textop p {
+    font-size: 20px;
+}
+   }
+    
+
+       
+@media (min-width: 576px) { 
+.LastFotterDiv{
+      width:576px ;margin: 0 auto;
+      }
+.LastFotterDiv3 a{padding: 10px;}
+.BeforelstFotter{
+   width: 590px;
+   margin: 0 auto;
+   overflow: hidden;
+   }
+   .BeforelstFotter1{
+      width:130px;
+      float: left;
+      overflow: hidden;
+         }
+         .BeforelstFotter div:last-child{
+            width: 130px;
+         }
+       .footterAoutSec{
+            font-size: 18px !important;
+         }
+         .footter a {
+          font-size:13px
+        }
+        .NewsletterUpText {
+         font-size: 21px;
+         line-height: 2rem;
+      }
+      .NewsletterUpText1 {
+         line-height: 3.5rem;
+         font-size: 18px;
+     }
+     .textop h1 {
+      font-size: 42px;
+  }
+  .textop {
+   position: absolute;
+   top: 35%;
+   left: 15%;
+   text-align: center;
+   margin: 0 auto;
+   color: white;
+}
+.textop p {
+ font-size: 23px;
+}
+     
+}
+ 
+ 
+
+@media (min-width: 768px) { 
+
+   .LastFotterDiv{
+      width:768px ;margin: 0 auto;
+   }
+   .BeforelstFotter{
+      width: 720px;
+      margin: 0 auto;
+      overflow: hidden;
+      }
+      .BeforelstFotter1{
+         width: 190px;
+         float: left;
+         overflow: hidden;
+            }
+            .BeforelstFotter div:last-child{
+               width: 150px;
+            }
+            .footterAoutSec {
+               font-size: 22px !important;
+           }
+           .footter a {
+            font-size: 14px;
+        }
+
+
+        .LastFotterDiv{
+         width: 768px; ;margin: 0 auto;
+      }
+      
+         .LastFotterDiv1{
+         font-size: 20px;
+         float: left;
+         width: 256px;       }
+      
+         .LastFotterDiv1 a {
+            font-size: 25PX;
+        }
+         .LastFotterDiv2{
+            font-size: 14px;
+         color: white;
+         float: left;
+      width: 256px;      
+         
+         }
+         .LastFotterDiv2 a{
+            font-size: 16px;
+         color: white;
+      
+         }
+         .LastFotterDiv3{
+            font-size: 20px;
+            color: white;
+            float: left;
+      width:200px;       
+         
+         
+         }
+         .LastFotterDiv3 a{
+            font-size: 25px;
+      
+         padding: 14px;
+         }
+      
+          
+      
+         .NewsletterUpText1 {
+            line-height: 3.5rem;
+            font-size: 20px;
+        }
+
+        .NewsletterUpText {
+         font-size: 24px;
+         line-height: 2rem;
+     }
+   
+     .textop h1 {
+      font-size: 55px;
+  }
+     .textop {
+      position: absolute;
+      top: 35%;
+      left: 16%;
+      text-align: center;
+      margin: 0 auto;
+      color: white;
+   }
+   .textop p {
+    font-size: 23px;
+   }
+        
+   }
+
+
+
+
+ 
+
+@media (min-width: 992px) { 
+
+   .LastFotterDiv{
+      width:992px ;
+   }
+   .BeforelstFotter{
+      width: 840px;
+      margin: 0 auto;
+      overflow: hidden;
+      }
+   .BeforelstFotter1{
+      width: 230px;
+      float: left;
+      overflow: hidden;
+         }
+         .BeforelstFotter div:last-child{
+            width: 150px;
+         }
+         .footterAoutSec {
+            font-size: 22px !important;
+        }
+        .footter a {
+         font-size: 14px;
+  
+      }
+      .LastFotterDiv{
+         width:1020px ;margin: 0 auto;
+      }
+      
+         .LastFotterDiv1{
+         font-size: 20px;
+         float: left;
+         width: 400px;       }
+      
+         .LastFotterDiv1 a {
+            font-size: 25PX;
+        }
+         .LastFotterDiv2{
+            font-size: 14px;
+         color: white;
+         float: left;
+      width: 400px;      
+         
+         }
+         .LastFotterDiv2 a{
+            font-size: 16px;
+         color: white;
+      
+         }
+         .LastFotterDiv3{
+            font-size: 20px;
+            color: white;
+            float: left;
+      width:220px;       
+         
+         
+         }
+         .LastFotterDiv3 a{
+            font-size: 25px;
+      
+         padding: 15px;
+         }
+      
+      
+         .NewsletterUpText1 {
+            line-height: 3.5rem;
+            font-size: 20px;
+        }
+
+        .NewsletterUpText {
+         font-size: 28px;
+         line-height: 2rem;
+     }
+ 
+  
+     .textop h1 {
+      font-size: 65px;
+  }
+     .textop {
+      position: absolute;
+      top: 35%;
+      left: 20%;
+      text-align: center;
+      margin: 0 auto;
+      color: white;
+   }
+   .textop p {
+    font-size: 26px;
+   }
+ 
+ 
+   }
+
+@media (min-width: 1200px) { 
+
+
+   .BeforelstFotter{
+      width: 1200px;
+      margin: 0 auto;
+      overflow: hidden;
+      }
+      .BeforelstFotter1{
+         width: 330px;
+         float: left;
+         overflow: hidden;
+            }
+            .BeforelstFotter div:last-child{
+               width: 165px;
+            }
+            .footterAoutSec {
+               font-size: 24px !important;
+           }
+           .footter a {
+            font-size: 16px;
+        }
+
+
+
+        .LastFotterDiv{
+         width:1020px ;margin: 0 auto;
+      }
+      
+         .LastFotterDiv1{
+         font-size: 20px;
+         float: left;
+         width: 400px;       }
+      
+         .LastFotterDiv1 a {
+            font-size: 25PX;
+        }
+         .LastFotterDiv2{
+            font-size: 14px;
+         color: white;
+         float: left;
+      width: 400px;      
+         
+         }
+         .LastFotterDiv2 a{
+            font-size: 16px;
+         color: white;
+      
+         }
+         .LastFotterDiv3{
+            font-size: 20px;
+            color: white;
+            float: left;
+      width:220px;       
+         
+         
+         }
+         .LastFotterDiv3 a{
+            font-size: 25px;
+      
+         padding: 15px;
+         }
+      
+         .NewsletterUpText1 {
+            line-height: 3.5rem;
+            font-size: 20px;
+        }
+
+        .NewsletterUpText {
+         font-size: 28px;
+         line-height: 2rem;
+     }
+
+
+     .textop h1 {
+      font-size: 68px;
+  }
+     .textop {
+      position: absolute;
+      top: 35%;
+      left: 27.5%;
+      text-align: center;
+      margin: 0 auto;
+      color: white;
+   }
+   .textop p {
+    font-size: 28px;
+   }
+
+
+ }
+
+@media (min-width: 1400px) { 
+
+   .LastFotterDiv{
+      width:1400px ;
+      margin: 0 auto;
+   }
+   .footterAoutSec {
+      font-size: 24px !important;
+  }
+ .footter a {
+    font-size: 16px;
+}
+
+.LastFotterDiv{
+   width:1400px ;margin: 0 auto;
+}
+
+   .LastFotterDiv1{
+   font-size: 20px;
+   float: left;
+   width: 460px;       }
+
+   .LastFotterDiv1 a {
+      font-size: 25PX;
+  }
+   .LastFotterDiv2{
+      font-size: 14px;
+   color: white;
+   float: left;
+width: 460px;      
+   
+   }
+   .LastFotterDiv2 a{
+      font-size: 16px;
+   color: white;
+
+   }
+   .LastFotterDiv3{
+      font-size: 20px;
+      color: white;
+      float: left;
+width: 460px;       
+   
+   
+   }
+   .LastFotterDiv3 a{
+      font-size: 25px;
+
+   padding: 8px;
+   }
+
+
+   .textop h1 {
+      font-size: 70px;
+  }
+     .textop {
+      position: absolute;
+      top: 35%;
+      left: 25.5%;
+      text-align: center;
+      margin: 0 auto;
+      color: white;
+   }
+   .textop p {
+    font-size: 28px;
+   }
+
+
+
+ }
